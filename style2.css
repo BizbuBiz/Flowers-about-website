@@ -1,0 +1,400 @@
+.container {
+  max-width: 1600px;
+  width: 100%;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container > .fon {
+  max-width: 300px;
+  width: 100%;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  top: -500px;
+  left: -300px;
+  background: url(/Group.png) no-repeat;
+}
+
+.container > .fon2 {
+  max-width: 300px;
+  width: 100%;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  top: -250px;
+  right: 300px;
+}
+
+.container > .header {
+  width: 100%;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: lato;
+}
+
+.container > .header > .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container > .header > .left > .rasm {
+  height: 100px;
+}
+
+.container > .header > .left > .logo > a {
+  text-decoration: none;
+}
+
+.container > .header > .right > .navbar {
+  max-width: 600px;
+  height: 40px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid red;
+}
+
+.container > .header > .right > .navbar > button {
+  width: 110px;
+  height: 35px;
+  background-color: #26A942;
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+
+.container > .header > .right > .navbar > ul {
+  width: 400px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container > .header > .right > .navbar > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.container > .box {
+  max-width: 1600px;
+  width: 100%;
+  height: 450px;
+  border: 1px solid black;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: url();
+}
+
+.container > .box > .text {
+  max-width: 610px;
+  width: 100%;
+  border: 1px solid red;
+  font-family: lato;
+  font-size: 30px;
+  position: relative;
+}
+
+.container > .box > .text > h3 {
+  margin: 40px 20px 0 40px;
+}
+
+.container > .box > .text > h3 > span {
+  color: #26A942;
+}
+
+.container > .box > .text > button {
+  width: 120px;
+  height: 70px;
+  border: 1px solid green;
+  background-color: transparent;
+  border-radius: 100%;
+  margin-left: 40px;
+}
+
+.container > .box > .text > img {
+  position: absolute;
+  left: 34.85%;
+  bottom: 5%;
+}
+
+.container > .box > .text > .fon2 {
+  position: absolute;
+  bottom: 10%;
+  right: 100px;
+}
+
+.container > .info {
+  max-width: 1100px;
+  width: 100%;
+  height: 235px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container > .info > .left {
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container > .info > .left > img {
+  position: absolute;
+  left: -95px;
+}
+
+.container > .info > .left > .text {
+  width: 250px;
+  margin-left: 10px;
+  font-family: lato;
+}
+
+.container > .info > .left > .text > h3 {
+  font-size: 20px;
+}
+
+.container > .info > .left > .text > p {
+  width: 270px;
+}
+
+.container > .info > .right {
+  max-width: 800px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.container > .info > .right > .text {
+  width: 130px;
+  height: 60px;
+}
+
+.container > .info > .right > .text > h1 {
+  font-family: lato;
+  font-size: 40px;
+  color: #26A942;
+  margin-top: 40px;
+}
+
+.container > .ich {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container > .ich > .left {
+  width: 630px;
+  height: 525px;
+}
+
+.container > .ich > .left > img {
+  margin-top: 20px;
+}
+
+.container > .ich > .right {
+  width: 353px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.container > .ich > .right > h3 {
+  font-size: 36px;
+}
+
+.container > .ich > .right > p {
+  width: 457px;
+}
+
+.container > .ich > .right > button {
+  width: 120px;
+  height: 70px;
+  background-color: transparent;
+  border-radius: 100%;
+  margin-left: 40px;
+  border: 1px solid green;
+}
+
+.container > .content > .content-inner {
+  max-width: 1170px;
+  width: 100%;
+  border: 1px solid black;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container > .content > .content-inner > .content-left {
+  width: 420px;
+  border: 1px solid #26A942;
+  position: relative;
+}
+
+.container > .content > .content-inner > .content-left > img {
+  position: absolute;
+  left: 180px;
+  bottom: -30px;
+}
+
+.container > .content > .content-inner > .content-left > button {
+  width: 120px;
+  height: 70px;
+  background-color: transparent;
+  border-radius: 100%;
+  margin-left: 40px;
+  border: 1px solid green;
+}
+
+.container > .content > .content-inner > .content-right {
+  width: 50%;
+  border: 1px solid yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.container > .content > .content-inner > .content-right > .left {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container > .content > .content-inner > .content-right > .left > .item {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+}
+
+.container > .content > .content-inner > .content-right > .right {
+  height: 100%;
+  width: 50%;
+}
+
+.container > .content > .content-inner > .content-right > .right > .top {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.container > .content > .content-inner > .content-right > .right > .pastki {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.container > .content > .content-inner > .content-right > .color {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  width: 550px;
+  height: 500px;
+  border-radius: 50%;
+  background-image: radial-gradient(at center center, rgba(83, 195, 81, 0.13), rgba(83, 195, 81, 0.1), rgba(83, 195, 81, 0.05));
+  z-index: -2;
+}
+
+.container > .content > .content-inner > .content-right > .dumaloq1 {
+  position: absolute;
+  left: 175px;
+  bottom: 50px;
+  z-index: -1;
+}
+
+.container > .content > .content-inner > .content-right > .dumaloq2 {
+  position: absolute;
+  top: 60px;
+  left: 210px;
+  z-index: -1;
+}
+
+.container > .content > .content-inner > .content-right > .dumaloq3 {
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  z-index: -1;
+}
+/*# sourceMappingURL=style2.css.map */

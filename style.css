@@ -1,0 +1,77 @@
+.container {
+  max-width: 1280px;
+  width: 100%;
+  height: 600px;
+  margin: auto;
+  border: 1px solid yellowgreen;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#DAF2DA), color-stop(#E9F7E9), color-stop(#FEFFFE), color-stop(#FFFEF7), color-stop(#FFFDED), color-stop(#FFFBE5), color-stop(#FFFADD), to(#FFFADA));
+  background-image: linear-gradient(to bottom left, #DAF2DA, #E9F7E9, #FEFFFE, #FFFEF7, #FFFDED, #FFFBE5, #FFFADD, #FFFADA);
+}
+
+.container > .header {
+  height: auto;
+  border: 1px solid teal;
+}
+
+.container > .header > .row {
+  height: 40px;
+}
+
+.container > .header > .row > .nav1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container > .header > .row > .nav1 > img {
+  padding: 10px;
+}
+
+.container .box {
+  height: 300px;
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container .box .text {
+  margin-top: 20px;
+}
+
+.container .box .text p {
+  max-width: 300px;
+  width: 100%;
+  color: black;
+  font-size: 9px;
+}
+
+.container .box .text button {
+  width: 180px;
+  height: 68px;
+  background-color: transparent;
+  border: 1px solid green;
+  border-radius: 70%;
+}
+
+.container .box .text button .fa-solid {
+  color: green;
+}
+
+.container .box h3 .text-color {
+  color: green;
+}
+
+.info {
+  max-width: 900px;
+  margin: auto;
+  height: 215px;
+}
+
+.info .box {
+  height: 200px;
+  border: 1px solid red;
+}
+/*# sourceMappingURL=style.css.map */
